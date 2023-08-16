@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+  width: 42cm;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bs1{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  color:  aquamarine ;
+  
+}
+p{
+  margin: 5px !important;
+  color: black;
+  padding: 2px;
+  font-weight: bold;
+  
+}
+.btn1{
+  box-shadow: none !important;
+  background-color : white !important;
+  color: goldenrod !important;
+  border: 1px solid goldenrod !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+button{
+  padding: 3px 10px !important;
+}
+.header{
+   padding: 10px;
+   /* background-color:ghostwhite; */
+}
+.header .ant-btn{
+  box-shadow: none !important;
+  background-color : white !important;
+  color: goldenrod !important;
+  border: 1px solid goldenrod !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+
+
+.content{
+  min-height: 90vh;
+  /* background-color: ghostwhite; */
+}
+
+.carimg{
+  height: 180px;
+  width: auto;
+  border-radius: 5px;
+  transform: translateY(-60px);
+}
+
+/* this is just for ui purpose , no functionality is related */
+.car{
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 160px;
+  transition: 0.3s;
+}
+.car:hover{
+  height :220px;
+}
+.car:hover > .car-content{
+
+    opacity: 1;
+    transform : translateY(-40px)
+
+}
+.car-content{
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+} 
+.login{
+  background-image: url(https://i.pinimg.com/originals/de/0f/4b/de0f4bf6e8075312a6eb20ad7044571a.jpg); 
+  background-size: cover;
+  padding-top: 50px;
+  
+  min-height: 100vh;
+}
+.login label , .login h1{
+  color:black !important;
+  opacity: 1;
+}
+.login-form{
+  
+  background-color:grey;
+
+  
+}
+.login-form input{
+  background-color: black !important;
+border: none !important;
+color: white;
+opacity: 0.5;
+}
+
+.login-logo{
+  position: absolute;
+   left: 5%;
+  top:3%;
+  bottom: 95%;
+  opacity: 0.5 !important;
+  
+
+}
+.login a{
+  color: antiquewhite;
+  opacity: 1;
+}
+
+.carimg2{
+  height: 400px;
+  border-radius: 10px;
+  width: auto;
+}
+
+.bookingcar1{
+  background-color: azure;
+}
+
+.aboutpage{
+  background-image: url(https://i.pinimg.com/originals/de/0f/4b/de0f4bf6e8075312a6eb20ad7044571a.jpg); 
+  background-size: cover;
+  
+
+}
+.aboutp{ 
+  text-align: left !important;
+  font-size: 24px;
+}
+
+.termspage{
+  background-image: url(https://i.pinimg.com/originals/de/0f/4b/de0f4bf6e8075312a6eb20ad7044571a.jpg); 
+  background-size: cover;
+  
+
+}
+
+.termsp{
+  text-align: left;
+  font-size: 24px;
+}
+
+
+.homepage{
+  background-color: azure;
+  width: 44.3cm;
+}
+
+svg{
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.addcar{
+  background-color: azure;
+}
+
